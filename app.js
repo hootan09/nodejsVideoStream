@@ -43,3 +43,10 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, function () {
     console.log(`Listening on port ${PORT}!`);
 });
+
+// unhandled rejections
+process.on('unhandledRejection', (err) => {
+    console.log(`Error: ${err.message}`);
+    // Close server & exit process
+    process.exit(1);
+});
