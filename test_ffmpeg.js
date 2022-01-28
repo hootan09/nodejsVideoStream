@@ -27,8 +27,7 @@ const createPreview = async() =>{
 //Note: runs Slowly used Massive Cpu Time
 const createXFramePic = async ()=>{
     try {
-        const result = await createXFramesPreview(videoPath, './public/uploads/clara_2018/thumb%04d.jpg' , 5);
-        console.log(result);
+        await createXFramesPreview(videoPath, './public/uploads/clara_2018/thumb%04d.jpg' , 5);
     } catch (err) {
         console.log(err);
     }
