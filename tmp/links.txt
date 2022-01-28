@@ -1,0 +1,17 @@
+https://dev.to/bnevilleoneill/generating-video-previews-with-node-js-and-ffmpeg-5e29
+https://dev.to/alexstandiford/batch-video-editing-with-node-js-5ada
+
+https://dev.to/juanbelieni/video-preview-on-hover-with-html-and-javascript-1b00
+
+
+
+https://dev.to/bohdanstupak1/converting-video-with-ffmpegcore-538b
+
+https://dev.to/alfg/ffmpeg-webassembly-2cbl
+
+https://dev.to/faraixyz/converting-video-into-animated-images-using-ffmpeg-3cng
+
+https://dev.to/faraixyz/converting-video-into-animated-images-and-other-videos-with-ffmpeg-for-the-most-part-3da7
+
+https://dev.to/chromiumdev/running-ffmpeg-with-wasm-in-a-web-worker-5gb5
+
