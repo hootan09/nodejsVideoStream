@@ -9,12 +9,12 @@ ffmpeg
 ###### Note: ffmpeg Must be Installed on your system
 
 run stream server:
-```
+```sh
 $ npm i
 $ npm start
-```sh
+```
 
 work with ffmpeg utils:
-```
-$ node test_ffmpeg.js
 ```sh
+$ node test_ffmpeg.js
+```
