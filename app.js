@@ -11,6 +11,7 @@ app.use(express.urlencoded({ extended: true }));
 //static public Folders
 app.use(express.static(path.join(__dirname , 'public')));
 
+//serve by public folder
 // app.get("/", function (req, res) {
 //     res.sendFile(__dirname + "/index.html");
 // });
@@ -20,8 +21,9 @@ app.get("/video", function (req, res) {
     if (!range) {
         res.status(400).send("Requires Range header");
     }
-    const videoPath = "./public/uploads/Clara_2018_HD480.mp4";
+    const videoPath = "./public/uploads/clara_2018/Clara_2018_HD480.mp4";
     const videoSize = fs.statSync(videoPath).size;
+    //1 mb
     const CHUNK_SIZE = 10 ** 6;
     const start = Number(range.replace(/\D/g, ""));
     const end = Math.min(start + CHUNK_SIZE, videoSize - 1);
