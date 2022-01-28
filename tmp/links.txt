@@ -1,3 +1,5 @@
+https://github.com/fluent-ffmpeg/node-fluent-ffmpeg
+
 https://dev.to/bnevilleoneill/generating-video-previews-with-node-js-and-ffmpeg-5e29
 https://dev.to/alexstandiford/batch-video-editing-with-node-js-5ada
 
